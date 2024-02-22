@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Porfolio</title>
+  <body>
+
+    <script>
+      const theme = localStorage.getItem("theme") || "dark";
+      document.body.classList.add(theme);
+    </script>
+
+    <header class="header">
+      <div class="container">
+        <div class="header-textbox">
+          <h1 class="h1">
+            Hi, I'm Isaiah Olanrewaju<br />
+            Front-end Developer
+          </h1>
+          <p class="header-text">
+            A software engineer Currently interning at <a href="https://mist.lagosstate.gov.ng"> ABAT</a></p>
+          </p>
+          <div class="header-btns">
+            <a href="#contact" class="btn btn-cta">Hire me</a>
+            <a href="#work" class="btn btn-secondary">See my work</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="client">
+        <div class="container">
+          <h2 class="h2">Trusted by</h2>
+          <div class="logos">
+            <!-- Replace alt with client/company name and src attributes of images with path to relative img of client logo -->
+            <div class="logo-group">
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/coke.svg"
+                alt="coke"
+                class="logo"
+              />
+            </div>
+            <div class="logo-group">
+             <img
+                loading="lazy"
+                src="assets/images/trusted-by/gitlab.svg"
+                alt="gitlab"
+                class="logo"
+              />
+            </div>
+            <div class="logo-group">
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/BU.jpg"
+                alt="Babcock"
+                class="logo"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="work">
+        <div class="container">
+          <h2 class="h2" id="work">Selected Work</h2>
+          <div class="work-boxes">
+            <div class="work-box">
+              <div class="work-textbox">
+               
+                <h3 class="h3">project 1</h3>
+    
+                <p class="work-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga debitis autem reprehenderit ipsa, recusandae repellat ullam porro soluta tenetur maiores optio officiis modi! Odio velit, excepturi ducimus facilis at itaque!
+                </p>
+               
+                <ol class="work-technologies">
+                  <li>....</li>
+				          <li>....</li>
+				          <li>....</li>
+                </ol>
+
+                <div class="work-links">
+                  <!-- Add url of project in href attribute -->
+                  <a href="......" target="_blank" rel="noopener" class="link"
+                    >Explore this project</a
+                  >
+
+                  <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+                  <a href="https://github.com/Shiinigami52"target="_blank"rel="noopener"title="Source code">
+                    <img
+                      src="assets/images/social-links/github.svg"
+                      alt="GitHub"
+                      loading="lazy"
+                    />
+                  </a>
+                </div>
+              </div>
+         <picture class="work-img">
+          <img
+            loading="lazy"
+            src="\assets\images\work\..."
+            alt="Project 1"
+          />
+        </picture>
+              
+            </div>
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">Project 2</h3>
+                <!-- Add small description of your project  -->
+
+                <p class="work-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit delectus odit dolor ex, libero veritatis sapiente earum quam! Provident, autem aliquid dignissimos consequatur nobis eligendi aperiam similique nemo neque sequi?
+                </p>
+                <ol class="work-technologies">
+                  <li>....</li>
+				          <li>....</li>
+				          <li>....</li>
+                </ol>
+                <div class="work-links">
+                  <!-- Add url of project in href attribute -->
+                  <a href="......" target="_blank" rel="noopener" class="link"
+                    >Explore this project</a
+                  >
+
+                     <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+                     <a href="https://github.com/Shiinigami52"target="_blank"rel="noopener"title="Source code">
+                      <img
+                        src="assets/images/social-links/github.svg"
+                        alt="GitHub"
+                        loading="lazy"
+                      />
+                    </a>
+                </div>
+              </div>
+         <!-- Update img src and alt attribute  -->
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="\assets\images\work\...."
+                  alt="Project 2"
+                />
+              </picture>
+            </div>
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">Project 3</h3>
+                <!-- Add small description of your project  -->
+
+                <p class="work-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim quia maiores explicabo possimus, temporibus inventore repudiandae fugit libero quaerat aliquam repellendus nisi dolor quae, exercitationem ipsam saepe quod magni accusantium!
+                </p>
+                <ol class="work-technologies">
+                  <li>....</li>
+				          <li>....</li>
+				          <li>....</li>
+                </ol>
+                <div class="work-links">
+                  <!-- Add url of project in href attribute -->
+                  <a href="......" target="_blank" rel="noopener" class="link"
+                    >Explore this project</a
+                  >
+
+                     <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+                     <a href="https://github.com/Shiinigami52"target="_blank"rel="noopener"title="Source code">
+                      <img
+                        src="assets/images/social-links/github.svg"
+                        alt="GitHub"
+                        loading="lazy"
+                      />
+                    </a>
+                </div>
+              </div>
+         <!-- Update img src and alt attribute  -->
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="\assets\images\work\...."
+                  alt="Project 3"
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="recommendations container">
+        <h2 class="h2">Testimonials</h2>
+        <ol class="testimonials cards" tabindex="0">
+          <li class="testimonial card">
+            <blockquote class="testimonial-text">
+              Isaiah is a true professional with amazing talent. He is a creative
+              thinker, has his finger on the pulse of whats to come, and
+              absolutely one of the quickest and best problem solvers I have
+              ever met.
+            </blockquote>
+            <figure class="testimonial-author">
+              <img
+                src="assets/images/testimonials/adam.png"
+                alt="Adam"
+                loading="lazy"
+              />
+              <figcaption>
+                <h3 class="testimonial-author-name">Adam</h3>
+                <p class="testimonial-author-job">Engineer @Google</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="testimonial card">
+            <blockquote class="testimonial-text">
+              Isaiah is Swiss army knife developer. He's efficient across a
+              seriously wide array of technologies, languages and
+              development approaches. He codes at work and at home passionately.
+            </blockquote>
+            <figure class="testimonial-author">
+              <img
+                src="assets/images/testimonials/val-head.png"
+                alt="Val"
+                loading="lazy"
+              />
+              <figcaption>
+                <h3 class="testimonial-author-name">Val</h3>
+                <p class="testimonial-author-job">CEO @Tesla</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="testimonial card">
+            <blockquote class="testimonial-text">
+              Isaiah is talented. He is very experienced with various
+              media and can make any project you are working on look good. He is
+              easy to work with and is a self starter. I would work with Isaiah
+              again.
+            </blockquote>
+            <figure class="testimonial-author">
+              <img
+                src="assets/images/testimonials/brian-hirsh.png"
+                alt="Brian"
+                loading="lazy"
+              />
+              <figcaption>
+                <h3 class="testimonial-author-name">Brian</h3>
+                <p class="testimonial-author-job">Head @Mega</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="testimonial card">
+            <blockquote class="testimonial-text">
+              Isaiah is a true professional with amazing talent. He is a creative
+              thinker, has his finger on the pulse of whats to come, and
+              absolutely one of the quickest and best problem solvers I have
+              ever met.
+            </blockquote>
+            <figure class="testimonial-author">
+              <img
+                src="assets/images/testimonials/iidk.png"
+                alt="iiDk"
+                loading="lazy"
+              />
+              <figcaption>
+                <h3 class="testimonial-author-name">iiDk</h3>
+                <p class="testimonial-author-job">Engineer @Google</p>
+              </figcaption>
+            </figure>
+          </li>
+        </ol>
+      </section>
+
+      <section class="contact">
+        <div class="container">
+          <h2 class="h2" id="contact">Send Message</h2>
+          <div class="contact-content">
+            <div class="contact-textbox">
+              <!-- Please comment this component if you're not available for hire -->
+              <strong href="#" class="hire-alert">
+                <span class="indicator"></span>
+                Available for hire
+              </strong>
+              <p class="contact-text">
+                As a software engineer, I construct web interfaces.
+                I tend to code things from scratch and enjoy
+                bringing ideas to life.
+              </p>
+              
+              <img
+                src="assets/images/signature.png"
+                alt="Isaiah"
+                class="signature"
+                loading="lazy"
+              />
+            </div>
+            <form action="#" class="contact-form" netlify>
+              <div class="form-field">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required />
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  required
+                  inputmode="email"
+                />
+              </div>
+              <div class="form-field">
+                <label for="message">How can I help you?</label>
+                <textarea name="message" id="message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-cta">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <nav>
+            <ol class="footer-links">
+              <li class="footer-link">
+                <a title="GitHub" href="https://github.com/Shinigami52" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="assets/images/social-links/github.svg"
+                    alt="GitHub"
+                /></a>
+              </li>
+      
+              <li class="footer-link">
+                <a title="Twitter" href="https://twitter.com/Shiinigami52" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="assets/images/social-links/twitter.svg"
+                    alt="Twitter"
+                /></a>
+              </li>
+            </ol>
+          </nav>
+          <p class="footer-text">
+            &copy; 2024 - Designed & developed by <a target="_blank" rel="noopener" href="https://github.com/Shinigami52">Shiinigami.</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  </html>
